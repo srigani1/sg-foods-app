@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:gravity="center_vertical">
+
+        <EditText
+            android:id="@+id/search_input"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:hint="Search food items..."
+            android:inputType="text"
+            android:textSize="14sp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:background="@android:color/white"
+            android:layout_marginEnd="10dp" />
+
+        <ImageView
+            android:id="@+id/payment_icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_payment"
+            android:contentDescription="Payments"
+            android:layout_marginEnd="10dp" />
+
+        <ImageView
+            android:id="@+id/profile_icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_profile"
+            android:contentDescription="Profile" />
+
+    </LinearLayout>
+
+    <RecyclerView
+        android:id="@+id/food_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp" />
+
+</LinearLayout>
