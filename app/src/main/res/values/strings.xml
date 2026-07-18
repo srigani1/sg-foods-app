@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SG Foods</string>
+    <string name="enter_mobile">Enter Mobile Number</string>
+    <string name="login_button">Login</string>
+    <string name="search_hint">Search food items...</string>
+    <string name="sign_out">Sign Out</string>
+</resources>
